@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="notetitle">Pick a title for your note!</string>
+    <string name="title">Note Title</string>
+    <string name="desc">Description</string>
+    <string name="notedesc">Add your note here!</string>
+    <string name="unknownuri">Cannot query unknown URI </string>
+    <string name="unsupporteduri">Not supported uri </string>
+    <string name="matchcode">With a match code of </string>
+    <string name="deleteerr">deletion is not supported for </string>
+    <string name="nonotes">No notes yet ! Click below to add one !!</string>
+    <string name="addNote">Add Note</string>
+    <string name="editNote">Edit Note</string>
+    <string name="unsaved_changes">Discard your changes and quit editing ?!</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="action_save">save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_all">Delete All</string>
+    <string name="deleted_successful">Deleted Successfully</string>
+    <string name="deleted_failed">Error with deleting Note</string>
+    <string name="delete_dialog_msg">Are you sure for deleting?!</string>
+    <string name="cancel">Cancel</string>
+    <string name="notitle">Please pick a title !</string>
+    <string name="nonote">Please insert your note here!</string>
+    <string name="editor_insert_Note_failed">insertion failed !</string>
+    <string name="editor_insert_Note_successful">inserted successfully</string>
+    <string name="updated_failed">update failed :(</string>
+    <string name="updated_successfully">updated successfully :)</string>
+</resources>

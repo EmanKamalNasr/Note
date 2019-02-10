@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context="com.example.android.note.EditorActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_pin"
+        android:drawablePadding="@dimen/s10"
+        android:gravity="center_vertical"
+        android:padding="@dimen/s10"
+        android:text="@string/title"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@color/dgray"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/title_editor_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/s10"
+        android:background="@drawable/rounded_layout"
+        android:hint="@string/notetitle"
+        android:padding="@dimen/s20" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/note"
+        android:drawablePadding="@dimen/s10"
+        android:gravity="center_vertical"
+        android:padding="@dimen/s10"
+        android:text="@string/desc"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@color/dgray"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/desc_editor_et"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/s10"
+        android:background="@drawable/rounded_layout"
+        android:gravity="top"
+        android:hint="@string/notedesc"
+        android:padding="@dimen/s20"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+</LinearLayout>
